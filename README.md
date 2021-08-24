@@ -3,7 +3,7 @@ Python Flask backend microservice for Bosch BME280 sensor data and calculated me
 
 BME280 is an affordable and accurate digital pressure, temperature and humidity sensor, than can be easily connected to any Raspberry Pi using I2C, therebefore making it ideal for remote temperature/humidity monitoring.
 
-Thanks to Matt Hawkins library (https://bitbucket.org/MattHawkinsUK/rpispy-misc/raw/master/python/bme288.py), I just had to implement the endpoints and upgrade a few line to Python 3 syntaxis to make it work, also added
+Thanks to Matt Hawkins library (https://bitbucket.org/MattHawkinsUK/rpispy-misc/raw/master/python/bme280.py), I just had to implement the endpoints and upgrade a few line to Python 3 syntaxis to make it work, also added
 atmospheric metrics that are calculated using BME280 metrics. I'm not a weather professional, so please double check the formulas. PRs are welcome for fixes/additions.
 
 ## Configuration and runtime
