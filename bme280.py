@@ -24,10 +24,10 @@ from ctypes import c_short
 from ctypes import c_byte
 from ctypes import c_ubyte
 
-DEVICE = 0x76 # Default device I2C address
+DEVICE = 0x77 # Default device I2C address
 
 
-bus = smbus2.SMBus(1) # Rev 2 Pi, Pi 2 & Pi 3 uses bus 1
+bus = smbus2.SMBus(4) # Rev 2 Pi, Pi 2 & Pi 3 uses bus 1
                      # Rev 1 Pi uses bus 0
 
 def getShort(data, index):
