@@ -2,9 +2,10 @@ version: '2'
 services:
   bme280-backend:
     image: bme280-backend:latest
+    build: .
     container_name: bme280-backend
     restart: always
     ports:
       - 8000:8000
     devices:
-      - "/dev/i2c-4:/dev/i2c-4"
+      - "/dev/i2c-1:/dev/i2c-1"
